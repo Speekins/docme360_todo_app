@@ -1,13 +1,26 @@
 .todo {
   display: flex;
+  flex-direction: column;
   padding: 25px;
   margin: 20px;
   border: 1px solid gray;
   border-radius: 10px;
   width: 75%;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-content {
+  display: flex;
   justify-content: space-between;
   font-size: larger;
+  margin-bottom: 5px;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  font-size: small;
 }
 
 .checkmark {
@@ -32,4 +45,8 @@
 
 .restore-icon:hover {
   color: rgb(117, 177, 241)
+}
+
+.warning {
+  color: red
 }

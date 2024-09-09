@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8888",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 8888",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
     "@fontsource/metropolis": "^5.0.11",
     "@mui/icons-material": "^6.0.2",
     "@mui/material": "^6.0.2",

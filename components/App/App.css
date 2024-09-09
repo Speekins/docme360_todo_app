@@ -1,0 +1,37 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.todo-container {
+  border-right: gray 1px solid;
+}
+
+.todo-container,
+.done-container {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list,
+.dones-list {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dones-list {
+  color: gray;
+}
+
+h1 {
+  border-bottom: gray 1px solid;
+}

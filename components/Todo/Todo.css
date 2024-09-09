@@ -1,0 +1,35 @@
+.todo {
+  display: flex;
+  padding: 25px;
+  margin: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 75%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.checkmark {
+  cursor: pointer;
+}
+
+.checkmark:hover {
+  color: rgb(36, 235, 10)
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: rgb(243, 46, 46)
+}
+
+.restore-icon {
+  cursor: pointer;
+}
+
+.restore-icon:hover {
+  color: rgb(117, 177, 241)
+}
